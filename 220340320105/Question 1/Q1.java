@@ -24,7 +24,7 @@
 	
   public static void main(String [] args){
   
-    Q1 isd = new Q1();
+    Q1 q = new Q1();
     Scanner sc = new Scanner(System.in);
 	
 	System.out.print("Enter Array size : ");
@@ -37,10 +37,10 @@
 			arr[i] = sc.nextInt();
     	}
 	System.out.println("Before sorting : ");
-	isd.printArray(arr);
+	q.printArray(arr);
 	System.out.println("After Applying insertion Sort : ");
-	isd.sort(arr);
-	isd.printArray(arr);
+	q.sort(arr);
+	q.printArray(arr);
    
   }  
   
